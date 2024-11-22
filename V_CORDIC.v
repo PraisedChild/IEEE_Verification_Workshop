@@ -31,7 +31,7 @@ module V_CORDIC (
             o_data_1    <= 32'h0;
             o_data_2    <= 32'h0;
             ON          <= 0;
-            counter <= 0;
+            counter     <= 0;
         end
         else begin
             if(ON)begin
